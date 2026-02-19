@@ -61,6 +61,15 @@ export function Header() {
             <p className="text-ksw-gray text-sm md:text-xl">Rechtsanwälte</p>
           </div>
         </button>
+        <div className="flex items-center justify-center">
+          <Image
+            src="/images/berlinerfreiheit-logo.png"
+            alt="Berliner Freiheit"
+            width={40}
+            height={60}
+            className="object-contain block md:hidden"
+          />
+        </div>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-7 items-center">
