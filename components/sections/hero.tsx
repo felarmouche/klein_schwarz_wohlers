@@ -23,13 +23,13 @@ export function Hero() {
       <div className="absolute inset-0 bg-[url('/images/hero_pex.jpg')] bg-cover bg-center" />
       <div className="absolute inset-0 bg-gradient-to-r from-ksw-blue to-ksw-blue/60 bg-cover bg-center" />
       {/* ── Main content ───────────────────────────────────────────── */}
-      <div className="relative z-10 flex-1 flex items-center justify-center md:justify-start">
+      <div className="relative z-10 flex-1 flex items-end pb-8 sm:items-center sm:pb-0 pt-28 sm:pt-24 justify-center md:justify-start">
         <div className="w-full px-5 sm:px-8 lg:px-16">
           <div className="max-w-[1200px] mx-auto">
             <div className="max-w-[640px]">
               {/* Tagline pill */}
               <div
-                className="mb-8"
+                className="mb-4 md:mb-8"
                 style={{
                   opacity: loaded ? 1 : 0,
                   transition: "opacity 0.8s ease 0.2s",
@@ -70,7 +70,7 @@ export function Hero() {
 
               {/* Subline */}
               <p
-                className="mt-4 md:mt-0 text-[clamp(15px,1.8vw,17px)] text-white/75 mt-8 leading-[1.8] max-w-[480px] font-light"
+                className="mt-4 md:mt-6 text-[clamp(15px,1.8vw,17px)] text-white/75 leading-[1.8] max-w-[480px] font-light"
                 style={{
                   opacity: loaded ? 1 : 0,
                   transform: loaded ? "translateY(0)" : "translateY(18px)",
@@ -82,7 +82,7 @@ export function Hero() {
               </p>
               {/* CTAs */}
               <div
-                className="mt-30 md:mt-10 flex gap-3 flex-wrap justify-between sm:justify-start"
+                className="mt-8 md:mt-10 flex gap-3 flex-wrap justify-between sm:justify-start"
                 style={{
                   opacity: loaded ? 1 : 0,
                   transform: loaded ? "translateY(0)" : "translateY(18px)",
