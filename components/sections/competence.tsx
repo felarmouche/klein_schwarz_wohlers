@@ -17,13 +17,13 @@ export function Competence() {
         
         <FadeIn delay={0.1}>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-ksw-blue mb-4 max-w-[700px]">
-            Umfassende Kompetenz in Verkehr und Versicherung
+            Umfassende Kompetenz in verschiedenen Bereichen.
           </h2>
         </FadeIn>
 
         <FadeIn delay={0.15}>
           <p className="text-ksw-gray-light text-sm sm:text-[15px] mb-12 max-w-[580px]">
-            Unsere Expertise erstreckt sich über das gesamte Spektrum des Verkehrs- und Versicherungsrechts.
+            Unsere Expertise erstreckt sich über ein breites Spektrum von Rechtsbereichen.
           </p>
         </FadeIn>
 
