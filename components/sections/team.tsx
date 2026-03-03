@@ -168,7 +168,7 @@ export function Team() {
 
         {/* Staff Section */}
         <FadeIn delay={0.3}>
-          <div className="mt-16 pt-12 border-t border-ksw-border">
+          <section id="mitarbeiter" className="mt-16 pt-12 border-t border-ksw-border">
             <h3 className="font-serif text-xl sm:text-2xl font-semibold text-ksw-blue mb-1">Mitarbeiterinnen</h3>
             <p className="text-sm text-ksw-gray-light mb-8">Unser Sekretariat – Organisation und Support.</p>
 
@@ -216,6 +216,11 @@ export function Team() {
                 );
               })}
             </div>
+          </section>
+        </FadeIn>
+        <FadeIn delay={0.35}>
+          <div className="mt-8 pt-6 border-t border-ksw-border">
+            <p>Zudem bilden wir regelmäßig Rechtsanwaltsfachangestellte aus.</p>
           </div>
         </FadeIn>
       </div>

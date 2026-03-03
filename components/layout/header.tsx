@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { useRouter, usePathname } from "next/navigation";
@@ -8,7 +8,14 @@ import { useRouter, usePathname } from "next/navigation";
 const navItems = [
   { id: "kanzlei", label: "Kanzlei" },
   { id: "kompetenzen", label: "Kompetenzen" },
-  { id: "rechtsanwaelte", label: "Rechtsanwälte" },
+  {
+    id: "team",
+    label: "Team",
+    children: [
+      { id: "rechtsanwaelte", label: "Rechtsanwälte" },
+      { id: "mitarbeiter", label: "Mitarbeiter" },
+    ],
+  },
   { id: "links", label: "Links" },
   { id: "kontakt", label: "Kontakt" },
 ];
@@ -16,6 +23,9 @@ const navItems = [
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [teamOpen, setTeamOpen] = useState(false);
+  const [mobileTeamOpen, setMobileTeamOpen] = useState(false);
+  const teamTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const router = useRouter();
   const pathname = usePathname();
 
@@ -27,6 +37,8 @@ export function Header() {
 
   const scrollTo = (id: string) => {
     setMenuOpen(false);
+    setTeamOpen(false);
+    setMobileTeamOpen(false);
     if (pathname !== "/") {
       router.push(`/#${id}`);
       return;
@@ -41,6 +53,15 @@ export function Header() {
         behavior: "smooth",
       });
     }
+  };
+
+  const handleTeamEnter = () => {
+    if (teamTimeoutRef.current) clearTimeout(teamTimeoutRef.current);
+    setTeamOpen(true);
+  };
+
+  const handleTeamLeave = () => {
+    teamTimeoutRef.current = setTimeout(() => setTeamOpen(false), 150);
   };
 
   return (
@@ -73,16 +94,47 @@ export function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-7 items-center">
-          {navItems.map((n) => (
-            <button
-              key={n.id}
-              onClick={() => scrollTo(n.id)}
-              className="group relative text-xs font-medium text-ksw-gray tracking-wider uppercase py-1"
-            >
-              {n.label}
-              <span className="absolute bottom-[-2px] left-0 w-0 h-[1px] bg-ksw-blue transition-all duration-300 group-hover:w-full" />
-            </button>
-          ))}
+          {navItems.map((n) =>
+            n.children ? (
+              <div
+                key={n.id}
+                className="relative"
+                onMouseEnter={handleTeamEnter}
+                onMouseLeave={handleTeamLeave}
+              >
+                <button
+                  className="group relative text-xs font-medium text-ksw-gray tracking-wider uppercase py-1"
+                >
+                  {n.label}
+                  <span className="absolute bottom-[-2px] left-0 w-0 h-[1px] bg-ksw-blue transition-all duration-300 group-hover:w-full" />
+                </button>
+                {teamOpen && (
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2">
+                    <div className="bg-white border border-ksw-border rounded shadow-md min-w-[180px] py-1">
+                      {n.children.map((child) => (
+                        <button
+                          key={child.id}
+                          onClick={() => scrollTo(child.id)}
+                          className="block w-full text-left px-4 py-2.5 text-xs font-medium text-ksw-gray tracking-wider uppercase hover:bg-ksw-blue/5 hover:text-ksw-blue transition-colors"
+                        >
+                          {child.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <button
+                key={n.id}
+                onClick={() => scrollTo(n.id)}
+                className="group relative text-xs font-medium text-ksw-gray tracking-wider uppercase py-1"
+              >
+                {n.label}
+                <span className="absolute bottom-[-2px] left-0 w-0 h-[1px] bg-ksw-blue transition-all duration-300 group-hover:w-full" />
+              </button>
+            ),
+          )}
         </nav>
 
         <Image
@@ -123,15 +175,51 @@ export function Header() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-ksw-border px-5 py-2 animate-in slide-in-from-top-2">
-          {navItems.map((n) => (
-            <button
-              key={n.id}
-              onClick={() => scrollTo(n.id)}
-              className="block w-full text-left py-3.5 border-b border-ksw-border last:border-none text-[15px] font-medium text-ksw-gray"
-            >
-              {n.label}
-            </button>
-          ))}
+          {navItems.map((n) =>
+            n.children ? (
+              <div key={n.id}>
+                <button
+                  onClick={() => setMobileTeamOpen(!mobileTeamOpen)}
+                  className="flex w-full items-center justify-between py-3.5 border-b border-ksw-border text-[15px] font-medium text-ksw-gray"
+                >
+                  {n.label}
+                  <svg
+                    className={cn(
+                      "w-4 h-4 transition-transform",
+                      mobileTeamOpen && "rotate-180",
+                    )}
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {mobileTeamOpen && (
+                  <div className="pl-4 border-b border-ksw-border">
+                    {n.children.map((child) => (
+                      <button
+                        key={child.id}
+                        onClick={() => scrollTo(child.id)}
+                        className="block w-full text-left py-3 text-[14px] text-ksw-gray"
+                      >
+                        {child.label}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <button
+                key={n.id}
+                onClick={() => scrollTo(n.id)}
+                className="block w-full text-left py-3.5 border-b border-ksw-border last:border-none text-[15px] font-medium text-ksw-gray"
+              >
+                {n.label}
+              </button>
+            ),
+          )}
         </div>
       )}
     </header>

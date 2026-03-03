@@ -35,7 +35,7 @@ export const rechtsgebiete = [
     category: "Mandantenservice & Prozessführung",
     items: [
       { title: "Versicherer-Vertretung", desc: "Nahezu ausschließliche Tätigkeit für zahlreiche renommierte Versicherungsunternehmen." },
-      { title: "Prozessführung", desc: "Weit überwiegend gerichtliche Tätigkeit mit großer Erfahrung im gesamten norddeutschen Raum und darüber hinaus." },
+      { title: "Prozessführung", desc: "Weit überwiegend gerichtliche Tätigkeit mit großer Erfahrung im gesamten norddeutschen Raum." },
       { title: "Schulungen", desc: "Beratende Tätigkeit für Versicherungsunternehmen einschließlich der Durchführung von Schulungen." },
       { title: "Persönliche Betreuung", desc: "Als kleines Spezialistenteam bieten wir in jeder Angelegenheit einen konkreten Ansprechpartner und gehen flexibel auf Mandantenbedürfnisse ein." },
     ],
@@ -73,13 +73,14 @@ export const teamData = [
   },
   {
     name: "Susanne Katterbach",
-    role: "Angestellte Rechtsanwältin",
+    role: "Fachanwältin für Verkehrsrecht (im Angestelltenverhältnis)", 
     active: true,
     education: "Studium der Rechtswissenschaften an den Universitäten Saarbrücken und Münster",
     cv: [
       { year: "seit 1998", text: "Zulassung als Rechtsanwältin, angestellte Anwältin in Hamburg" },
       { year: "2000 – 2016", text: "Verschiedene Tätigkeiten als Juristin in Banken und der Immobilienwirtschaft" },
-      { year: "seit 2016", text: "Angestellt bei der Kanzlei Klein & Schwarz-Wohlers" },
+      { year: "seit 2016", text: "Rechtsanwältin bei der Kanzlei Klein & Schwarz-Wohlers" },
+      { year: "seit 2021", text: "Fachanwältin für Verkehrsrecht" }
     ],
   },
   {
@@ -122,6 +123,45 @@ export const staffData = [
       { year: "seit 2003", text: "Mitarbeiterin in unserer Kanzlei" },
     ],
     focus: "Auswertung und Beurteilung psychologischer Gutachten, Sekretariat",
+  },
+  {
+    name: "Sina Bouffee",
+    role: "Rechtsanwaltsfachangestellte",
+    cv: [
+      { year: "2022 – 2025", text: "Ausbildung zur Rechtsanwaltsfachangestellten" },
+      { year: "seit 2025", text: "Mitarbeiterin in unserer Kanzlei" },
+    ],
+    focus: "Sachbearbeitung, Zwangsvollstreckung",
+  },
+  {
+    name: "Katja Loose",
+    role: "Rechtsanwaltsfachangestellte",
+    cv: [
+      { year: "1996 – 2000", text: "Ausbildung zur Rechtsanwaltsfachangestellten" },
+      { year: "2000 – 2025", text: "Tätigkeit in verschiedenen Branchen im Sekretariat o.ä." },
+      { year: "seit 2025", text: "Mitarbeiterin in unserer Kanzlei" },
+    ],
+    focus: "Telefonzentrale, Sekretariat",
+  },
+  {
+    name: "Christine Wardalski",
+    role: "Rechtsanwaltsfachangestellte",
+    cv: [
+      { year: "2018 – 2020", text: "Ausbildung zur Rechtsanwaltsfachangestellten" },
+      { year: "2020 – 2025", text: "Tätigkeit als Rechtsanwaltsfachangestellte" },
+      { year: "seit 2025", text: "Mitarbeiterin in unserer Kanzlei" },
+    ],
+    focus: "Sachbearbeitung, Sekretariat",
+  },
+  {
+    name: "Sabine Böttcher",
+    role: "Rechtsanwalts- und Notarfachangestellte",
+    cv: [
+      { year: "1999 – 2002", text: "Ausbildung zur Rechtsanwalts- und Notarfachangestellten" },
+      { year: "2002 – 2020", text: "Tätigkeit in verschiedenen Branchen im Sekretariat u.ä." },
+      { year: "seit 2020", text: "Mitarbeiterin in unserer Kanzlei" },
+    ],
+    focus: "Sekretariat",
   },
 ];
 
