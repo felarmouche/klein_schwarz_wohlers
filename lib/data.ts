@@ -20,7 +20,7 @@ export const rechtsgebiete = [
     category: "Technische Kompetenz",
     items: [
       { title: "Verkehrsunfallrekonstruktion", desc: "Fortlaufende technische Weiterbildung zur sachgerechten Beurteilung von Unfallabläufen." },
-      { title: "Aufklärung manipulierter Unfälle", desc: "Erkennen und Aufklären von manipulierten Verkehrsunfällen auf Grundlage technischen Sachverstands." },
+      { title: "Aufklärung manipulierter Unfälle", desc: "Erkennen und Aufklären von manipulierten Verkehrsunfällen, auch auf Grundlage technischen Sachverstands." },
     ],
   },
   {
@@ -52,7 +52,7 @@ export const teamData = [
       { year: "seit 1998", text: "Zulassung als Rechtsanwältin in Bremen" },
       { year: "", text: "Angestellte Rechtsanwältin in Bremen mit zivilrechtlicher Ausrichtung" },
       { year: "seit 2001", text: "Eintritt als Partnerin nach vorheriger Anstellung" },
-      { year: "seit 2003", text: "Partnerin der Kanzlei Klein & Schwarz-Wohlers" },
+      { year: "seit 2003", text: "Mitgründerin und Partnerin der Kanzlei Klein & Schwarz-Wohlers" },
       { year: "seit 2005", text: "Fachanwältin für Versicherungsrecht" },
       { year: "seit 2009", text: "Fachanwältin für Verkehrsrecht" },
     ],
@@ -87,7 +87,7 @@ export const teamData = [
     name: "Dettlev Klein",
     role: "Fachanwalt für Verkehrsrecht · Notar",
     active: false,
-    note: "Herr Rechtsanwalt und Notar Dettlev Klein, unser sehr geschätzter Kollege und Mitbegründer unserer Kanzlei, ist leider am 6.6.2016 verstorben.",
+    note: "Herr Rechtsanwalt und Notar Dettlev Klein, unser sehr geschätzter Kollege und Mitgründer unserer Kanzlei, ist leider am 6.6.2016 verstorben.",
     education: "",
     cv: [],
   },
@@ -99,7 +99,8 @@ export const staffData = [
     role: "Rechtsanwalts- und Notariatsfachangestellte",
     cv: [
       { year: "1983 – 1986", text: "Ausbildung zur Rechtsanwalts- und Notariatsfachangestellten" },
-      { year: "seit 1986", text: "Mitarbeiterin in unserer Kanzlei" },
+      { year: "seit 1986", text: "Mitarbeiterin der Kanzlei Dettlev Klein" },
+      { year: "seit 2003", text: "Mitarbeiterin in unserer Kanzlei" },
     ],
     focus: "Büroorganisation, Buchhaltung, Sekretariat",
   },
@@ -145,10 +146,10 @@ export const staffData = [
   },
   {
     name: "Christine Wardalski",
-    role: "Rechtsanwaltsfachangestellte",
+    role: "Rechtsanwaltsangestellte",
     cv: [
       { year: "2018 – 2020", text: "Ausbildung zur Rechtsanwaltsfachangestellten" },
-      { year: "2020 – 2025", text: "Tätigkeit als Rechtsanwaltsfachangestellte" },
+      { year: "2020 – 2025", text: "Tätigkeit als Rechtsanwaltsangestellte" },
       { year: "seit 2025", text: "Mitarbeiterin in unserer Kanzlei" },
     ],
     focus: "Sachbearbeitung, Sekretariat",
@@ -169,8 +170,8 @@ export const linksData = [
   { label: "Gesetzestexte", url: "http://www.gesetze-im-internet.de/aktuell.html" },
   { label: "EU-Kommission – Online-Streitbeilegung", url: "https://www.ec.europa.eu/consumers/odr" },
   { label: "Entscheidungen des Bundesgerichtshofes", url: "http://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/list.py?Gericht=bgh&Art=en&Datum=Aktuell&Sort=12288" },
-  { label: "Hanseatisches OLG Bremen", url: "http://www.oberlandesgericht.bremen.de/sixcms/detail.php?gsid=bremen02.c.734.de" },
-  { label: "Entscheidungen des OLG Hamburg", url: "http://www.rechtsprechung-hamburg.de/jportal/portal/page/bsharprod.psml" },
+  { label: "Entscheidungen des Hanseatischen OLG Bremen", url: "http://www.oberlandesgericht.bremen.de/sixcms/detail.php?gsid=bremen02.c.734.de" },
+  { label: "Entscheidungen des Hanseatischen OLG Hamburg", url: "http://www.rechtsprechung-hamburg.de/jportal/portal/page/bsharprod.psml" },
   { label: "Entscheidungen der OLG Niedersachsen", url: "http://app.olg-ol.niedersachsen.de/efundus/index.php4" },
-  { label: "Entscheidungen der Gerichte Schleswig-Holstein", url: "http://www.gesetze-rechtsprechung.sh.juris.de/jportal/portal/t/14zf/page/bsshoprod.psml" },
+  { label: "Entscheidungen der Gerichte Schleswig-Holsteins", url: "http://www.gesetze-rechtsprechung.sh.juris.de/jportal/portal/t/14zf/page/bsshoprod.psml" },
 ];

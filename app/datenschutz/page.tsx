@@ -17,14 +17,14 @@ export default function DatenschutzPage() {
 
       <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12 mt-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
-          
+
           {/* LEFT: Sidebar Navigation */}
           <div className="lg:col-span-3">
             <div className="sticky top-32 flex flex-col gap-2">
               <span className="text-xs font-bold uppercase tracking-widest text-ksw-gray/40 mb-2">Rechtliches</span>
               <div className="flex flex-col border-l-2 border-ksw-blue/10">
-                <Link 
-                  href="/impressum" 
+                <Link
+                  href="/impressum"
                   className="pl-4 py-2 text-sm font-medium text-ksw-gray/60 hover:text-ksw-blue transition-colors"
                 >
                   Impressum
@@ -38,14 +38,14 @@ export default function DatenschutzPage() {
 
           {/* RIGHT: Content */}
           <div className="lg:col-span-8 lg:col-start-5 space-y-16 text-[15px] sm:text-[16px] text-ksw-gray leading-relaxed">
-            
+
             <FadeIn>
               <PrivacySection number="1" title="Verantwortlicher & Datenschutzbeauftragte">
                 <p className="mb-4 text-sm">Verantwortlich im Sinne der DSGVO:</p>
                 <div className="bg-white p-6 border-l-4 border-ksw-blue shadow-sm mb-6">
-                    <strong className="text-ksw-blue block mb-1">Klein & Schwarz-Wohlers Partnerschaftsgesellschaft</strong>
-                    <span className="text-sm">Berliner Freiheit 3, 28327 Bremen</span><br/>
-                    <span className="text-sm">Email: info@klein-schwarz-wohlers.de</span>
+                  <strong className="text-ksw-blue block mb-1">Rechtsanwälte Dettlev Klein & Sylvia Schwarz-Wohlers Partnerschaftsgesellschaft</strong>
+                  <span className="text-sm">Berliner Freiheit 3, 28327 Bremen</span><br />
+                  <span className="text-sm">Email: info@klein-schwarz-wohlers.de</span>
                 </div>
                 <p>
                   Die betriebliche Datenschutzbeauftragte, <strong>Frau Claudia Kück</strong>, ist unter der o.g. Anschrift oder per Email unter <a href="mailto:datenschutz@klein-schwarz-wohlers.de" className="text-ksw-blue underline decoration-ksw-blue/30">datenschutz@klein-schwarz-wohlers.de</a> erreichbar.
@@ -112,6 +112,9 @@ export default function DatenschutzPage() {
                   <RightRow art="Art. 7 Abs. 3" title="Widerruf">
                     Jederzeitiger Widerruf einer erteilten Einwilligung für die Zukunft.
                   </RightRow>
+                  <RightRow art="Art. 77" title="Beschwerde">
+                    Beschwerderecht bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten. In der Regel können Sie sich hierfür an die Aufsichtsbehörde Ihres üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Kanzleisitzes wenden.
+                  </RightRow>
                 </div>
               </PrivacySection>
             </FadeIn>
@@ -119,7 +122,7 @@ export default function DatenschutzPage() {
             <FadeIn delay={0.4}>
               <div className="bg-ksw-blue text-white p-8 rounded-sm shadow-xl shadow-ksw-blue/10 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-32 bg-white/5 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
-                
+
                 <h3 className="text-xl font-serif mb-4 relative z-10 flex items-center gap-3">
                   <span className="flex items-center justify-center w-8 h-8 rounded-full bg-white text-ksw-blue text-sm font-bold">5</span>
                   Widerspruchsrecht
@@ -163,13 +166,13 @@ function PrivacySection({ number, title, children }: { number: string; title: st
 }
 
 function RightRow({ art, title, children }: { art: string; title: string; children: React.ReactNode }) {
-    return (
-        <div className="grid grid-cols-1 sm:grid-cols-[100px_1fr] gap-2 py-4">
-            <span className="text-xs font-bold text-ksw-blue/60 pt-1">{art} DSGVO</span>
-            <div>
-                <strong className="block text-ksw-blue text-sm mb-1">{title}</strong>
-                <p className="text-sm text-ksw-gray/80">{children}</p>
-            </div>
-        </div>
-    )
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-[100px_1fr] gap-2 py-4">
+      <span className="text-xs font-bold text-ksw-blue/60 pt-1">{art} DSGVO</span>
+      <div>
+        <strong className="block text-ksw-blue text-sm mb-1">{title}</strong>
+        <p className="text-sm text-ksw-gray/80">{children}</p>
+      </div>
+    </div>
+  )
 }
