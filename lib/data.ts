@@ -73,7 +73,7 @@ export const teamData = [
   },
   {
     name: "Susanne Katterbach",
-    role: "Fachanwältin für Verkehrsrecht (im Angestelltenverhältnis)", 
+    role: "Fachanwältin für Verkehrsrecht (im Angestelltenverhältnis)",
     active: true,
     education: "Studium der Rechtswissenschaften an den Universitäten Saarbrücken und Münster",
     cv: [
@@ -170,8 +170,8 @@ export const linksData = [
   { label: "Gesetzestexte", url: "http://www.gesetze-im-internet.de/aktuell.html" },
   { label: "EU-Kommission – Online-Streitbeilegung", url: "https://www.ec.europa.eu/consumers/odr" },
   { label: "Entscheidungen des Bundesgerichtshofes", url: "http://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/list.py?Gericht=bgh&Art=en&Datum=Aktuell&Sort=12288" },
-  { label: "Entscheidungen des Hanseatischen OLG Bremen", url: "http://www.oberlandesgericht.bremen.de/sixcms/detail.php?gsid=bremen02.c.734.de" },
-  { label: "Entscheidungen des Hanseatischen OLG Hamburg", url: "http://www.rechtsprechung-hamburg.de/jportal/portal/page/bsharprod.psml" },
-  { label: "Entscheidungen der OLG Niedersachsen", url: "http://app.olg-ol.niedersachsen.de/efundus/index.php4" },
+  { label: "Entscheidungen des Hanseatischen OLG Bremen", url: "https://www.oberlandesgericht.bremen.de/entscheidungen-1945" },
+  { label: "Entscheidungen der Gerichte Hamburgs", url: "https://justiz.hamburg.de/gerichte/oberlandesgericht/start-635260" },
+  { label: "Entscheidungen der Gerichte Niedersachsens", url: "https://oberlandesgericht-celle.niedersachsen.de/startseite/rechtsprechung/nds_rechtsprechungsdatenbank/geschaeftsverteilung-201321.html" },
   { label: "Entscheidungen der Gerichte Schleswig-Holsteins", url: "http://www.gesetze-rechtsprechung.sh.juris.de/jportal/portal/t/14zf/page/bsshoprod.psml" },
 ];
