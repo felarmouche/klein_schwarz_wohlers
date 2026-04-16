@@ -17,8 +17,35 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Klein & Schwarz-Wohlers | Rechtsanwälte Bremen",
-  description: "Spezialisiertes Verkehrs- und Versicherungsrecht in Bremen. Defense Counsel für Versicherungsunternehmen.",
+  metadataBase: new URL("https://www.klein-schwarz-wohlers.de"),
+  title: "Klein & Schwarz-Wohlers - Rechtsanwälte in Bremen - Sylvia Schwarz-Wohlers, Volker Wohlers",
+  description:
+    "Klein & Schwarz-Wohlers - Rechtsanwälte in Bremen: Sylvia Schwarz-Wohlers, Volker Wohlers. Schwerpunkte: Verkehrsrecht, Versicherungsrecht.",
+  keywords: [
+    "Klein",
+    "Schwarz-Wohlers",
+    "Wohlers",
+    "Sylvia Schwarz-Wohlers",
+    "Volker Wohlers",
+    "Rechtsanwalt",
+    "Rechtsanwälte",
+    "Notar",
+    "Bremen",
+    "Berliner Freiheit",
+    "Verkehrsrecht",
+    "Versicherungsrecht",
+  ],
+  robots: { index: true, follow: true },
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: "https://www.klein-schwarz-wohlers.de/",
+    siteName: "Klein & Schwarz-Wohlers",
+    title: "Klein & Schwarz-Wohlers - Rechtsanwälte in Bremen",
+    description:
+      "Rechtsanwälte in Bremen mit Schwerpunkten Verkehrsrecht und Versicherungsrecht.",
+  },
 };
 
 export default function RootLayout({

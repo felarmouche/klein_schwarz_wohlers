@@ -1,0 +1,4 @@
+# Klein & Schwarz-Wohlers
+
+User-agent: *
+Disallow: /*.pdf$

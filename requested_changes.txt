@@ -1,172 +1,37 @@
-Änderungswünsche:
+Alle alten Unterseiten:
+https://www.klein-schwarz-wohlers.de/index.html
 
-Team - Rechtsanwälte
+https://www.klein-schwarz-wohlers.de/ueberuns.html
 
-Sylvia Schwarz-Wohlers 
+https://www.klein-schwarz-wohlers.de/rechtsanwaelte.html
 
+https://www.klein-schwarz-wohlers.de/sylvia-schwarz-wohlers.html
 
+https://www.klein-schwarz-wohlers.de/volker-wohlers.html
 
-Unter dem Punkt - seit 2003 soll es wie folgt lauten:
+https://www.klein-schwarz-wohlers.de/susanne-katterbach.html
 
+https://www.klein-schwarz-wohlers.de/dettlev-klein.html
 
+https://www.klein-schwarz-wohlers.de/mitarbeiter.html
 
-Mitgründerin und Partnerin der Kanzlei ....
+https://www.klein-schwarz-wohlers.de/martina-kurpiers.html
 
+https://www.klein-schwarz-wohlers.de/pamela-bamberger.html
 
+https://www.klein-schwarz-wohlers.de/marina-schuman.html
 
-Dettlev Klein 
+https://www.klein-schwarz-wohlers.de/links.html
 
+https://www.klein-schwarz-wohlers.de/kontakt.html
 
+https://www.klein-schwarz-wohlers.de/impressum.html
 
-Hier soll es statt Mitbegründer nur Mitgründer lauten 
+https://www.klein-schwarz-wohlers.de/datenschutz.html
 
-
-
-Team Mitarbeiter - Martina Kurpiers 
-
-
-
-seit 1986 
-
-Mitarbeiterin der Kanzlei Dettlev Klein 
-
-
-
-seit 2003
-
-Mitarbeiterin in unserer Kanzlei 
-
-
-
-Team Mitarbeiter - Christine Wardalski 
-
-
-
-Nur Rechtsanwaltsangestellte (nicht Rechtsanwaltsfachangestellte, weil sie die Ausbildung nicht beendet hat, können für das "fach" nicht mit schreiben)
-
-
-
-Bei der Ausbildung kann das bleiben, nur oben und in dem Unterpunkt 2020-2025 darf das "fach" nicht mit stehen
-
-
-
-
-
-Gesetzestexte 
-
-
-
-Bei Hanseatisches OLG Bremen  - Entscheidungen des Hanseatischen OLG Bremen
-
-Bei Hamburg - Entscheidungen des Hanseatischen OLG Hamburg 
-
-Bei Schleswig-Holstein - Entscheidungen der Gerichte Schleswig-Holsteins (mit s am Ende) 
-
-
-
-
-
-Unsere Schwerpunkte:
-
-
-
-....Neben diesem Schwerpunkt befassen wir uns auch mit anderen Haftpflichttatbeständen, dem Sachversicherungsrecht, dem Personenschadenrecht sowie Versicherungsregressen. 
-
-
-
-Hohes Qualitätsniveau .... 
-
-
-
-
-
-.... fortlaufend nicht nur konsolidiert, sondern weiterentwickelt (statt fortentwickelt). 
-
-
-
-... im Bereich der Verkehrsunfallrekonstruktion statt, damit Unfallabläufe sachgerecht beurteilt werden können. 
-
-
-
-... Daneben ist für uns eine kontinuierliche .... (das "auch" kann weg)
-
-
-
-... im Bereich schwerer Personenschäden kommt beispielsweise den post....
-
-
-
-... Grundlage unserer Tätigkeit, wobei wir im Bedarfsfall auch externe Spezialisten hinzuziehen. 
-
-
-
-
-
-Flexibilität & Mandantennähe 
-
-
-
-... kleines Team von Spezialisten sind, ist es uns möglich (auch hier kann das "auch" weg) 
-
-
-
-... Unsere Organisastionsstruktur (statt Diese)
-
-
-
-Den letzten Satz in diesem Punkt möchten wir gern etwas umstellen...
-
-
-
-, für die wir nahezu ausschließlich tätig sind. Ab dann soll es wie lauten: 
-
-
-
-Wir sind weit überwiegend in gerichtlichen Verfahren tätig und verfügen deshalb über eine sehr große Erfahrung bei der Führung von Gerichtsprozessen. Unsere gerichtliche Tätigkeit umfasst den gesamten norddeutschen Raum und bei Bedarf auch über dessen Grenze hinaus. 
-
-
-
-Neben unserer gerichtlichen Tätigkeit für Versicherungsunternehmen beraten wir diese auch und bieten Schulungen an. 
-
-
-
-
-
-Technische Kompetenz
-
-Aufklärung manipulierter Unfälle 
-
-
-
-Erkennen und Aufklären von manipulierten Verkehrsunfällen, auch auf Grundlage technischen Sachverstands. 
-
-
-
-Impressum
-
-
-
-Unsere Steuernummer ist falsch (ist uns gerade erst aufgefallen) sie lautet nur 60 anstatt 460. ... der Rest ist richtig. 
-
-
-
-Und da hätten wir gerne den vollständigen Text von der bisherigen Homepage unter Haftung für Inhalte, Haftung für Links und Urheberrecht. 
-
-
-
-
-
-Datenschutz
-
-
-
-Bei Datenschutz muss die Gesellschaft vollständig bezeichnet werden:
-
-
-
-Rechtsanwälte Dettlev Klein & Sylvia Schwarz-Wohlers Partnerschaftsgesellschaft 
-
-
-
-Dann bitte bei den Betroffenenrechten Artikel 77 DSGVO noch mit aufführen. 
-
+Alten Meta Daten:
+title>Klein &amp; Schwarz-Wohlers - Rechtsanw&auml;lte in Bremen - Sylvia Schwarz-Wohlers, Volker Wohlers</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="description" content="Klein &amp; Schwarz-Wohlers - Rechtsanw&auml;lte in Bremen: Sylvia Schwarz-Wohlers, Volker Wohlers. Schwerpunkte: Verkehrsrecht, Versicherungsrecht." />
+<meta name="keywords" content="Klein,Schwarz-Wohlers,Wohlers,Sylvia Schwarz-Wohlers,Volker Wohlers,Rechtsanwalt,Rechtsanw&auml;lte,Notar,Bremen,Berliner Freiheit,Verkehrsrecht,Versicherungsrecht" />
+<meta name="robots" content="all" />

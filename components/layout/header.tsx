@@ -89,6 +89,7 @@ export function Header() {
             width={40}
             height={60}
             className="object-contain block md:hidden"
+            priority
           />
         </div>
 

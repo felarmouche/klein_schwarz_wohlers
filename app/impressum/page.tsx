@@ -1,7 +1,14 @@
-"use client";
-
+import type { Metadata } from "next";
 import Link from "next/link";
 import { FadeIn } from "@/components/ui/fade-in";
+
+export const metadata: Metadata = {
+  title: "Impressum — Klein & Schwarz-Wohlers Rechtsanwälte Bremen",
+  description:
+    "Impressum der Kanzlei Klein & Schwarz-Wohlers, Rechtsanwälte in Bremen. Pflichtangaben gemäß § 5 TMG.",
+  alternates: { canonical: "/impressum" },
+  robots: { index: true, follow: true },
+};
 
 export default function ImpressumPage() {
   return (

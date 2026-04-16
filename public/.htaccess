@@ -1,0 +1,50 @@
+# Klein & Schwarz-Wohlers — Redirects alte URLs → neue Onepage
+# Absolute Ziel-URLs, damit IONOS UseCanonicalName nicht in einen
+# www/non-www Loop umschlägt.
+RewriteEngine On
+
+# Alte Seiten auf Anker / neue Routen
+RewriteRule ^ueberuns\.html$               https://www.klein-schwarz-wohlers.de/#kanzlei         [R=301,L,NE]
+RewriteRule ^rechtsanwaelte\.html$         https://www.klein-schwarz-wohlers.de/#rechtsanwaelte  [R=301,L,NE]
+RewriteRule ^sylvia-schwarz-wohlers\.html$ https://www.klein-schwarz-wohlers.de/#rechtsanwaelte  [R=301,L,NE]
+RewriteRule ^volker-wohlers\.html$         https://www.klein-schwarz-wohlers.de/#rechtsanwaelte  [R=301,L,NE]
+RewriteRule ^susanne-katterbach\.html$     https://www.klein-schwarz-wohlers.de/#rechtsanwaelte  [R=301,L,NE]
+RewriteRule ^dettlev-klein\.html$          https://www.klein-schwarz-wohlers.de/#rechtsanwaelte  [R=301,L,NE]
+RewriteRule ^mitarbeiter\.html$            https://www.klein-schwarz-wohlers.de/#mitarbeiter     [R=301,L,NE]
+RewriteRule ^martina-kurpiers\.html$       https://www.klein-schwarz-wohlers.de/#mitarbeiter     [R=301,L,NE]
+RewriteRule ^pamela-bamberger\.html$       https://www.klein-schwarz-wohlers.de/#mitarbeiter     [R=301,L,NE]
+RewriteRule ^marina-schuman\.html$         https://www.klein-schwarz-wohlers.de/#mitarbeiter     [R=301,L,NE]
+RewriteRule ^links\.html$                  https://www.klein-schwarz-wohlers.de/#links           [R=301,L,NE]
+RewriteRule ^kontakt\.html$                https://www.klein-schwarz-wohlers.de/#kontakt         [R=301,L,NE]
+RewriteRule ^impressum\.html$              https://www.klein-schwarz-wohlers.de/impressum/       [R=301,L]
+RewriteRule ^datenschutz\.html$            https://www.klein-schwarz-wohlers.de/datenschutz/     [R=301,L]
+
+# Hinweis: /index.html wird NICHT umgeleitet — Apache serviert dann
+# einfach die (neue) index.html direkt. Vermeidet Loops mit DirectoryIndex.
+
+# Unbekannte Pfade auf die Startseite fallen lassen (statt IONOS-Default-404).
+# Wichtig: nur wenn Pfad weder existierende Datei noch Verzeichnis ist —
+# sonst würde /datenschutz/ (Directory mit eigener index.html) auch umgebogen.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /index.html [L]
+
+# Verzeichnis-Listings deaktivieren
+Options -Indexes
+
+# Kompression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/xml
+</IfModule>
+
+# Browser-Caching für statische Assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/webp "access plus 6 months"
+  ExpiresByType image/svg+xml "access plus 6 months"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>

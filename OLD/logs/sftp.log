@@ -1,0 +1,114 @@
+Apr 15 17:38:57 10.71.56.0 u65140126 Connection from 10.71.56.0 port 36358 on 82.165.82.109 port 22 rdomain ""
+Apr 15 17:39:13 10.71.56.0 u65140126 Accepted password for u65140126 from 10.71.56.0 port 36358 ssh2
+Apr 15 17:39:13 10.71.56.0 u65140126 Starting session: subsystem 'sftp' for u65140126 from 10.71.56.0 port 36358 id 0
+Apr 15 17:39:13 10.71.56.0 u65140126 session opened for local user u65140126 from [10.71.56.0]
+Apr 15 17:39:36 10.71.56.0 u65140126 open "/robots.txt" flags READ mode 0666
+Apr 15 17:39:38 10.71.56.0 u65140126 close "/robots.txt" bytes read 58 written 0
+Apr 15 17:39:38 10.71.56.0 u65140126 [10.71.56.0|get|2|58|0|0|0|2f726f626f74732e747874|]
+Apr 15 17:39:49 10.71.56.0 u65140126 open "/geffken.png" flags READ mode 0666
+Apr 15 17:39:49 10.71.56.0 u65140126 close "/geffken.png" bytes read 118973 written 0
+Apr 15 17:39:49 10.71.56.0 u65140126 [10.71.56.0|get|0|118973|0|0|0|2f676566666b656e2e706e67|]
+Apr 15 17:39:57 10.71.56.0 u65140126 open "/Klein_und_Schwarz-Wohlers_Informationsmerkblatt_Erbscheinsantrag.pdf" flags READ mode 0666
+Apr 15 17:39:57 10.71.56.0 u65140126 close "/Klein_und_Schwarz-Wohlers_Informationsmerkblatt_Erbscheinsantrag.pdf" bytes read 184909 written 0
+Apr 15 17:39:57 10.71.56.0 u65140126 [10.71.56.0|get|0|184909|0|0|0|2f4b6c65696e5f756e645f5363687761727a2d576f686c6572735f496e666f726d6174696f6e736d65726b626c6174745f45726273636865696e73616e747261672e706466|]
+Apr 15 17:52:13 10.71.56.0 u65140126 open "/sitemap.xml" flags READ mode 0666
+Apr 15 17:52:14 10.71.56.0 u65140126 close "/sitemap.xml" bytes read 3459 written 0
+Apr 15 17:52:14 10.71.56.0 u65140126 [10.71.56.0|get|1|3459|0|0|0|2f736974656d61702e786d6c|]
+Apr 15 17:52:36 10.71.56.0 u65140126 open "/line-links.jpg" flags READ mode 0666
+Apr 15 17:52:37 10.71.56.0 u65140126 close "/line-links.jpg" bytes read 6832 written 0
+Apr 15 17:52:37 10.71.56.0 u65140126 [10.71.56.0|get|1|6832|0|0|0|2f6c696e652d6c696e6b732e6a7067|]
+Apr 15 17:52:59 10.71.56.0 u65140126 open "/sylvia-schwarz-wohlers.html" flags READ mode 0666
+Apr 15 17:53:00 10.71.56.0 u65140126 close "/sylvia-schwarz-wohlers.html" bytes read 3157 written 0
+Apr 15 17:53:00 10.71.56.0 u65140126 [10.71.56.0|get|1|3157|0|0|0|2f73796c7669612d7363687761727a2d776f686c6572732e68746d6c|]
+Apr 15 17:58:39 10.71.56.0 u65140126 Connection closed by 10.71.56.0 port 36358
+Apr 15 17:58:39 10.71.56.0 u65140126 session closed for local user u65140126 from [10.71.56.0]
+Apr 15 18:39:12 10.71.56.0 u65140126 Connection from 10.71.56.0 port 61962 on 82.165.82.109 port 22 rdomain ""
+Apr 15 18:39:13 10.71.56.0 u65140126 Accepted password for u65140126 from 10.71.56.0 port 61962 ssh2
+Apr 15 18:39:13 10.71.56.0 u65140126 Starting session: subsystem 'sftp' for u65140126 from 10.71.56.0 port 61962 id 0
+Apr 15 18:39:13 10.71.56.0 u65140126 session opened for local user u65140126 from [10.71.56.0]
+Apr 15 18:42:09 10.71.56.0 u65140126 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Apr 15 18:42:09 10.71.56.0 u65140126 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Apr 15 18:42:09 10.71.56.0 u65140126 [10.71.56.0|get|0|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Apr 15 18:42:09 10.71.56.0 u65140126 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Apr 15 18:42:09 10.71.56.0 u65140126 sent status Permission denied
+Apr 15 18:46:29 10.71.56.0 u65140126 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Apr 15 18:46:29 10.71.56.0 u65140126 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Apr 15 18:46:29 10.71.56.0 u65140126 [10.71.56.0|get|0|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Apr 15 18:46:29 10.71.56.0 u65140126 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Apr 15 18:46:29 10.71.56.0 u65140126 sent status Permission denied
+Apr 15 18:46:35 10.71.56.0 u65140126 open "/logs/traffic.html/01.html" flags READ mode 0666
+Apr 15 18:46:35 10.71.56.0 u65140126 close "/logs/traffic.html/01.html" bytes read 9917 written 0
+Apr 15 18:46:35 10.71.56.0 u65140126 [10.71.56.0|get|0|9917|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30312e68746d6c|]
+Apr 15 18:46:35 10.71.56.0 u65140126 open "/logs/traffic.html/02.html" flags READ mode 0666
+Apr 15 18:46:36 10.71.56.0 u65140126 close "/logs/traffic.html/02.html" bytes read 9089 written 0
+Apr 15 18:46:36 10.71.56.0 u65140126 [10.71.56.0|get|1|9089|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30322e68746d6c|]
+Apr 15 18:46:36 10.71.56.0 u65140126 open "/logs/traffic.html/03.html" flags READ mode 0666
+Apr 15 18:46:36 10.71.56.0 u65140126 close "/logs/traffic.html/03.html" bytes read 9941 written 0
+Apr 15 18:46:36 10.71.56.0 u65140126 [10.71.56.0|get|0|9941|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30332e68746d6c|]
+Apr 15 18:46:36 10.71.56.0 u65140126 open "/logs/traffic.html/04.html" flags READ mode 0666
+Apr 15 18:46:36 10.71.56.0 u65140126 close "/logs/traffic.html/04.html" bytes read 4999 written 0
+Apr 15 18:46:36 10.71.56.0 u65140126 [10.71.56.0|get|0|4999|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30342e68746d6c|]
+Apr 15 18:46:36 10.71.56.0 u65140126 open "/logs/traffic.html/05.html" flags READ mode 0666
+Apr 15 18:46:36 10.71.56.0 u65140126 close "/logs/traffic.html/05.html" bytes read 9929 written 0
+Apr 15 18:46:36 10.71.56.0 u65140126 [10.71.56.0|get|0|9929|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30352e68746d6c|]
+Apr 15 18:46:36 10.71.56.0 u65140126 open "/logs/traffic.html/06.html" flags READ mode 0666
+Apr 15 18:46:36 10.71.56.0 u65140126 close "/logs/traffic.html/06.html" bytes read 9639 written 0
+Apr 15 18:46:36 10.71.56.0 u65140126 [10.71.56.0|get|0|9639|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30362e68746d6c|]
+Apr 15 18:46:36 10.71.56.0 u65140126 open "/logs/traffic.html/07.html" flags READ mode 0666
+Apr 15 18:46:36 10.71.56.0 u65140126 close "/logs/traffic.html/07.html" bytes read 9947 written 0
+Apr 15 18:46:36 10.71.56.0 u65140126 [10.71.56.0|get|0|9947|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30372e68746d6c|]
+Apr 15 18:46:36 10.71.56.0 u65140126 open "/logs/traffic.html/08.html" flags READ mode 0666
+Apr 15 18:46:36 10.71.56.0 u65140126 close "/logs/traffic.html/08.html" bytes read 9953 written 0
+Apr 15 18:46:36 10.71.56.0 u65140126 [10.71.56.0|get|0|9953|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30382e68746d6c|]
+Apr 15 18:46:36 10.71.56.0 u65140126 open "/logs/traffic.html/09.html" flags READ mode 0666
+Apr 15 18:46:36 10.71.56.0 u65140126 close "/logs/traffic.html/09.html" bytes read 9633 written 0
+Apr 15 18:46:36 10.71.56.0 u65140126 [10.71.56.0|get|0|9633|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30392e68746d6c|]
+Apr 15 18:46:36 10.71.56.0 u65140126 open "/logs/traffic.html/10.html" flags READ mode 0666
+Apr 15 18:46:37 10.71.56.0 u65140126 close "/logs/traffic.html/10.html" bytes read 9929 written 0
+Apr 15 18:46:37 10.71.56.0 u65140126 [10.71.56.0|get|1|9929|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31302e68746d6c|]
+Apr 15 18:46:37 10.71.56.0 u65140126 open "/logs/traffic.html/11.html" flags READ mode 0666
+Apr 15 18:46:37 10.71.56.0 u65140126 close "/logs/traffic.html/11.html" bytes read 9627 written 0
+Apr 15 18:46:37 10.71.56.0 u65140126 [10.71.56.0|get|0|9627|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31312e68746d6c|]
+Apr 15 18:46:37 10.71.56.0 u65140126 open "/logs/traffic.html/12.html" flags READ mode 0666
+Apr 15 18:46:37 10.71.56.0 u65140126 close "/logs/traffic.html/12.html" bytes read 9923 written 0
+Apr 15 18:46:37 10.71.56.0 u65140126 [10.71.56.0|get|0|9923|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31322e68746d6c|]
+Apr 15 18:46:37 10.71.56.0 u65140126 open "/logs/traffic.html/index.html" flags READ mode 0666
+Apr 15 18:46:37 10.71.56.0 u65140126 close "/logs/traffic.html/index.html" bytes read 6849 written 0
+Apr 15 18:46:37 10.71.56.0 u65140126 [10.71.56.0|get|0|6849|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Apr 15 18:46:37 10.71.56.0 u65140126 open "/logs/.htaccess" flags READ mode 0666
+Apr 15 18:46:37 10.71.56.0 u65140126 close "/logs/.htaccess" bytes read 266 written 0
+Apr 15 18:46:37 10.71.56.0 u65140126 [10.71.56.0|get|0|266|0|0|0|2f6c6f67732f2e6874616363657373|]
+Apr 15 18:46:37 10.71.56.0 u65140126 open "/logs/access.log.15.5.gz" flags READ mode 0666
+Apr 15 18:46:37 10.71.56.0 u65140126 close "/logs/access.log.15.5.gz" bytes read 23956 written 0
+Apr 15 18:46:37 10.71.56.0 u65140126 [10.71.56.0|get|0|23956|0|0|0|2f6c6f67732f6163636573732e6c6f672e31352e352e677a|]
+Apr 15 18:46:37 10.71.56.0 u65140126 open "/logs/access.log.15.6.gz" flags READ mode 0666
+Apr 15 18:46:37 10.71.56.0 u65140126 close "/logs/access.log.15.6.gz" bytes read 7034 written 0
+Apr 15 18:46:37 10.71.56.0 u65140126 [10.71.56.0|get|0|7034|0|0|0|2f6c6f67732f6163636573732e6c6f672e31352e362e677a|]
+Apr 15 18:46:37 10.71.56.0 u65140126 open "/logs/info.php5" flags READ mode 0666
+Apr 15 18:46:37 10.71.56.0 u65140126 close "/logs/info.php5" bytes read 21 written 0
+Apr 15 18:46:37 10.71.56.0 u65140126 [10.71.56.0|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Apr 15 18:46:37 10.71.56.0 u65140126 open "/logs/info.pl" flags READ mode 0666
+Apr 15 18:46:38 10.71.56.0 u65140126 close "/logs/info.pl" bytes read 4176 written 0
+Apr 15 18:46:38 10.71.56.0 u65140126 [10.71.56.0|get|1|4176|0|0|0|2f6c6f67732f696e666f2e706c|]
+Apr 15 18:46:38 10.71.56.0 u65140126 open "/logs/info.py" flags READ mode 0666
+Apr 15 18:46:38 10.71.56.0 u65140126 close "/logs/info.py" bytes read 6384 written 0
+Apr 15 18:46:38 10.71.56.0 u65140126 [10.71.56.0|get|0|6384|0|0|0|2f6c6f67732f696e666f2e7079|]
+Apr 15 18:46:38 10.71.56.0 u65140126 open "/logs/last_traffic" flags READ mode 0666
+Apr 15 18:46:38 10.71.56.0 u65140126 close "/logs/last_traffic" bytes read 0 written 0
+Apr 15 18:46:38 10.71.56.0 u65140126 [10.71.56.0|get|0|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+Apr 15 18:46:38 10.71.56.0 u65140126 open "/logs/traffic.db" flags READ mode 0666
+Apr 15 18:46:38 10.71.56.0 u65140126 close "/logs/traffic.db" bytes read 45056 written 0
+Apr 15 18:46:38 10.71.56.0 u65140126 [10.71.56.0|get|0|45056|0|0|0|2f6c6f67732f747261666669632e6462|]
+Apr 15 18:46:38 10.71.56.0 u65140126 open "/logs/access.log.16.1.gz" flags READ mode 0666
+Apr 15 18:46:38 10.71.56.0 u65140126 close "/logs/access.log.16.1.gz" bytes read 23000 written 0
+Apr 15 18:46:38 10.71.56.0 u65140126 [10.71.56.0|get|0|23000|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e312e677a|]
+Apr 15 18:46:38 10.71.56.0 u65140126 open "/logs/access.log.16.3" flags READ mode 0666
+Apr 15 18:46:38 10.71.56.0 u65140126 close "/logs/access.log.16.3" bytes read 116013 written 0
+Apr 15 18:46:38 10.71.56.0 u65140126 [10.71.56.0|get|0|116013|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e33|]
+Apr 15 18:46:38 10.71.56.0 u65140126 open "/logs/access.log.current" flags READ mode 0666
+Apr 15 18:46:39 10.71.56.0 u65140126 close "/logs/access.log.current" bytes read 116013 written 0
+Apr 15 18:46:39 10.71.56.0 u65140126 [10.71.56.0|get|1|116013|0|0|0|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Apr 15 18:46:39 10.71.56.0 u65140126 open "/logs/access.log.16.2.gz" flags READ mode 0666
+Apr 15 18:46:39 10.71.56.0 u65140126 close "/logs/access.log.16.2.gz" bytes read 7018 written 0
+Apr 15 18:46:39 10.71.56.0 u65140126 [10.71.56.0|get|0|7018|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e322e677a|]
+Apr 15 18:46:39 10.71.56.0 u65140126 open "/logs/sftp.log" flags READ mode 0666
