@@ -145,16 +145,6 @@ export const staffData = [
     focus: "Telefonzentrale, Sekretariat",
   },
   {
-    name: "Christine Wardalski",
-    role: "Rechtsanwaltsangestellte",
-    cv: [
-      { year: "2018 – 2020", text: "Ausbildung zur Rechtsanwaltsfachangestellten" },
-      { year: "2020 – 2025", text: "Tätigkeit als Rechtsanwaltsangestellte" },
-      { year: "seit 2025", text: "Mitarbeiterin in unserer Kanzlei" },
-    ],
-    focus: "Sachbearbeitung, Sekretariat",
-  },
-  {
     name: "Sabine Böttcher",
     role: "Rechtsanwalts- und Notarfachangestellte",
     cv: [
